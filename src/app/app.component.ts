@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class appComponent {
+export class AppComponent {
   title = 'primeng';
 
   @Input() count = 0;
